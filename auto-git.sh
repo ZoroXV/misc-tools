@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e "\n"
-echo -e "Starting \e[1m\e[32mAuto Git...\e[0m\n"
+echo -e "\e[1m\e[32mAuto Git joined the game.\e[0m\n"
 
 #git add part
 echo -e "Wich files you want to add:\n"
@@ -29,4 +29,4 @@ echo -e "Commit will be push...\n"
 git push --follow-tags
 
 #end
-echo -e "\e[1m\e[93mAuto Git leave the game.\e[0m\n"
+echo -e "\e[1m\e[93mAuto Git left the game.\e[0m\n"
