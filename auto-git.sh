@@ -4,7 +4,7 @@ echo -e "Starting \e[1m\e[32mAuto Git...\e[0m\n"
 
 #git add part
 echo -e "Wich files you want to add:\n"
-read files_staged
+read -e files_staged
 git add $files_staged
 
 git status
