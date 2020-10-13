@@ -10,7 +10,7 @@ git add $files_staged
 git status
 
 #auto clang-format
-#clang-format -i $files_staged
+#clang-format -i $files_staged/*
 
 #git commit part
 git commit
